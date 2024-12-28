@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9550a347df.js" crossorigin="anonymous"></script>
+    <title>Algorithm Visualizer</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="container">
+            <div class="logo">
+                <h1>Algorithm Visualizer</h1>
+            </div>
+            <div class="description">
+                <!-- <p>An algorithm visualizer is a tool or platform that graphically demonstrates how algorithms work
+                    step-by-step, making abstract processes like sorting or pathfinding easier to understand.</p> -->
+                <p>Simplifying algorithms with real-time visualizations.</p>
+            </div>
+            <div class="card-container">
+
+                <div class="card">
+                    <a href="./searching/searching.html">
+                        <div class="image">
+                            <img src="media\searchingNew.png" height="113px" width="113px">
+                        </div>
+                        <div class="caption">Searching</div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="./sorting/sorting.html">
+                        <div class="image">
+                            <img src="media/sortingNew.png" height="113px" width="113px">
+                        </div>
+                        <div class="caption">Sorting</div>
+                    </a>
+                </div>
+            </div>
+            <div class="description">
+                <!-- <p>More algorithms are coming soon!</p> -->
+            </div>
+        </div>
+        <div class="footer">
+            <div class="github">
+                <a href="https://github.com/RohitBhojak/Algorithm-Visualizer" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+            </div> 
+            <div class="team">
+                <div class="team-meet">
+                    <p>Meet the team!</p>
+                </div>
+                <div class="member">
+                    <a href="https://www.linkedin.com/in/rohit-bhojak/" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D4E35AQE6z4KSuIqEuA/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1725356201783?e=1734552000&v=beta&t=J4k1czFWoUFZRn_IS21_5QvjQRmrWIlOFqEmZaD7Cx4" height="50px" width="50px" class="profile-photo"></a>
+                </div>
+                <div class="member">
+                    <a href="https://www.linkedin.com/in/nilisha-bharadwaj-681397259/" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D5603AQFGF0ykxoiTpw/profile-displayphoto-shrink_800_800/B56ZPD2YwGHIAg-/0/1734157636099?e=1739404800&v=beta&t=9_ichftM90KdgUdCj__-Nmf74DuM5catINv6sthca2k" height="50px" width="50px" class="profile-photo"></a>
+                </div>
+                <div class="member">
+                    <a href="https://www.linkedin.com/in/sanskriti-singh3104/" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D5635AQHxCJB8rCT8Yw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1734097340787?e=1734710400&v=beta&t=oUIuTcbPeQ5nEbeFYOOhNS5-Nb9QeB6bBkgyt3bZSsI" height="50px" width="50px" class="profile-photo"></a>
+                </div>
+                <div class="member">
+                    <a href="https://www.linkedin.com/in/molisha-agrawal-10539a257/" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D5603AQGz_afsxS7VAw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728108507814?e=1739404800&v=beta&t=4gNWTQCJIgQunhPSwYN-lyW8lHrLpUsP8y9RKbvBb98" height="50px" width="50px" class="profile-photo"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JAVASCRIPT CODE  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+        VANTA.NET({
+            el: "#main",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x1f6feb,
+            backgroundColor: 0x0,
+            showDots: false
+        })
+    </script>
+</body>
+
+</html>
